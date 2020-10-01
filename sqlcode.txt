@@ -1,0 +1,18 @@
+
+
+CREATE TABLE `books` (
+  `bookid` int(11) NOT NULL AUTO_INCREMENT,
+  `book_title` varchar(45) DEFAULT NULL,
+  `author` varchar(45) DEFAULT NULL,
+  `year_published` int(15) DEFAULT NULL,
+  PRIMARY KEY (`bookid`)
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=latin1;
+
+INSERT INTO `books` VALUES 
+	(234,'the history of tom jones','henry','1749'),
+	(7647,'david coprified','charles','1878'),
+	(847,'war and war','gemsly','1900'),
+	(4894,'advance java','nageswar','1992'),
+	(3938,'data structures','robart lafore','1890');
+
+select * from books;
